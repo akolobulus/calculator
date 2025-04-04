@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculator App</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+    <!-- Dual display: operation & main result -->
+    <div class="display">
+      <div class="operation"></div>
+      <div class="result">0</div>
+    </div>
+
+    <!-- Buttons -->
+    <div class="buttons">
+      <!-- Row 1: AC, C, %, ÷ -->
+      <button class="red-btn" value="AC">AC</button>
+      <button class="red-btn" value="C">C</button>
+      <button class="red-btn" value="%">%</button>
+      <button class="green-btn" value="/">÷</button>
+
+      <!-- Row 2: 7, 8, 9, × -->
+      <button class="digit" value="7">7</button>
+      <button class="digit" value="8">8</button>
+      <button class="digit" value="9">9</button>
+      <button class="green-btn" value="*">×</button>
+
+      <!-- Row 3: 4, 5, 6, - -->
+      <button class="digit" value="4">4</button>
+      <button class="digit" value="5">5</button>
+      <button class="digit" value="6">6</button>
+      <button class="green-btn" value="-">-</button>
+
+      <!-- Row 4: 1, 2, 3, + -->
+      <button class="digit" value="1">1</button>
+      <button class="digit" value="2">2</button>
+      <button class="digit" value="3">3</button>
+      <button class="green-btn" value="+">+</button>
+
+      <!-- Row 5: 0, 00, ., = -->
+      <button class="digit" value="0">0</button>
+      <button class="digit" value="00">00</button>
+      <button class="digit" value=".">.</button>
+      <button class="green-btn" value="=">=</button>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
